@@ -3871,6 +3871,18 @@ textarea.form-control-lg {
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+.page-title {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--bs-white);
+  text-decoration: none;
+  /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; */
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -10971,6 +10983,18 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
+
+.social-icons .resume {
+  display: inline-flex;
+  align-items: center;
+  height: 3.5rem;
+  width: 100px;
+  justify-content: center;
+  border-radius: 30px !important;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
@@ -11010,6 +11034,9 @@ section.resume-section .resume-section-content {
 }
 
 /* Mae */
-.d-flex.flex-column.flex-md-row.justify-content-between.mb-5 {
-    height: 400px;
+.design {
+    height: 650px;
+}
+.code{
+  height: 550px;
 }
