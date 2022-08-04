@@ -6684,9 +6684,11 @@ textarea.form-control-lg {
 }
 .flex-text{
   flex:6 !important;
+  
 }
 .flex-img{
   flex:9 !important;
+  padding-left: 10px;
 }
 
 .flex-shrink-0 {
@@ -11015,8 +11017,20 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 100%;
 }
+
 section.resume-section .resume-section-content {
   width: 100%;
+  padding-right: 10px;
+}
+
+#about-content{
+  width: fit-content !important;
+  
+}
+
+section.image-preview{
+  width: 100px;
+  
 }
 
 @media (min-width: 768px) {
